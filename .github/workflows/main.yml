@@ -10,7 +10,7 @@ jobs:
       id: exemplo_output
       run: |
        ACTIONS_RANDOM=$(($RANDOM))
-       echo action_random=$ACTIONS_RANDOM" >> $GITHUB_OUTPUT
+       echo action_random=$ACTIONS_RANDOM >> $GITHUB_OUTPUT
 
     - name: Exibindo o output da actions exemplo_output
       run: |
