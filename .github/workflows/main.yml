@@ -17,7 +17,7 @@ jobs:
     - name: Exibindo o output da actions exemplo_output
       run: |
        echo "${{ steps.exemplo_output.outputs.action_random }}"
-  exibindo_valores:
+ exibindo_valores:
     needs: [gerando_output]
     runs-on: ubuntu-latest
     steps:
